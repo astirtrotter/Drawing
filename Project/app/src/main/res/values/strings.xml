@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Drawing</string>
+
+    <string name="sd_card_is_not_available">SD card is not available</string>
+</resources>

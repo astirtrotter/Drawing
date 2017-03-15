@@ -1,0 +1,45 @@
+{
+    "applications": [
+		{
+            "package": "nunoerin.drawing",
+            "icon": "file:///android_asset/draw.png"
+        },
+		{
+            "package": "nunoerin.tangram",
+            "icon": "file:///android_asset/tangram.png"
+        },
+        {
+            "package": "nunoerin.wink",
+            "icon": "file:///android_asset/pong.png"
+        },        
+		{
+            "package": "nunoerin.ants",
+            "icon": "file:///android_asset/ants.png"
+        }
+    ],
+    "allowedForegroundApplications": [
+        "com.google.android.play.games"
+    ],
+    "orientation": "landscape",
+    "kioskMode": true,
+    "applicationList": {
+        "mode": "whiteList",
+        "applications": [
+			"nunoerin.wink",
+			"nunoerin.drawing",
+			"nunoerin.tangram",
+			"nunoerin.ants"
+		]
+    },
+    "update": {
+        "url": "http://ucreate.nunoerin.com/updates/updateWWCtest.json",
+        "time": "13:10",
+		"logs":"http://ucreate.nunoerin.com/upload.php"
+    },
+    "screenSaver": {
+		"mode":"disabled",
+		"path":"/mnt/sdcard/Slideshows",
+		"slideShowDelay":"10",
+        "timeout": "120"		
+    }
+}
